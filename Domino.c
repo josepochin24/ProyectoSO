@@ -91,7 +91,7 @@ struct ficha *nuevaFicha(int num1, int num2){
  
         nueva ->valores[0] = num1;
         nueva ->valores[1] = num2;
-       // printf("[%i|%i]-- ",nueva ->valores[0],nueva ->valores[1]);
+        printf("[%i|%i]-- ",nueva ->valores[0],nueva ->valores[1]);
         
     return nueva;
 };
